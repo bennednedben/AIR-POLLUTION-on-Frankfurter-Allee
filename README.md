@@ -48,18 +48,15 @@ For Berlin, current and historical measurement data from the Berlin air quality 
 
 ## Used records
 
-| Record | Translation | Number of records
-| Messdaten - Feinstaub (PM10) | Measurement data - particulate matter (PM10) | 4 |
-| Messdaten - Feinstaub (PM2,5) | Messdaten - Feinstaub (PM2,5) | 4 |
-| Messdaten - Stickstoffdioxid (NO₂) | Measurement data - nitrogen dioxide (NO₂) | 4 |
-| Messdaten - Stickstoffmonoxid (NO) | Measurement data - nitrogen monoxide (NO) | 4 |
-| Messdaten - Summe der Stickoxide (NOₓ) | Measurement data - sum of nitrogen oxides (NOₓ) | 4 |
-| Messdaten - Ozon (O₃) | Measurement Data - Ozone (O₃) | 4 |
-| Messdaten - Kohlenmonoxid (CO) | Measurement data - carbon monoxide (CO) | 4 |
-| Messdaten - Schwefeldioxid (SO₂) | Measurement data - Sulfur dioxide (SO₂) | 2 |
+- Measurement data - particulate matter (PM10) (4 datasets)
+- Measurement data - particulate matter (PM2,5) (4 datasets)
+- Measurement data - nitrogen dioxide (NO₂) (4 datasets)
+- Measurement data - nitrogen monoxide (NO) (4 datasets)
+- Measurement data - sum of nitrogen oxides (NOₓ) (4 datasets)
+- Measurement data - ozone (O₃) (4 datasets)
+- Measurement data - carbon monoxide (CO) (4 datasets)
+- Measurement data - sulfur dioxide (SO₂) (2 datasets)
 
-Recording started January 1994
-A total number of 30 records were downloaded and then used for analysis.
 
 ### aggregated data
 
@@ -68,7 +65,18 @@ A total number of 30 records were downloaded and then used for analysis.
 - monthly values
 - annual values
 
-### Data Wrangling and Cleaning
+### Restrictions
+
+- In most cases, one dataset each was downloaded for hourly, daily, monthly and yearly measurement intervals.
+- Recording started January 1994
+- A total number of 30 records were downloaded and then used for analysis.
+- hourly records only go back one year
+- daily annual rates only go back 10 years
+- monthly and yearly records go back to the beginning of the recording
+- Hourly and daily data sets were missing for sulfur dioxide
+
+
+## Data Wrangling and Cleaning
 
 - View the data in LibreOffice
 - Delete the data of other measuring stations
@@ -92,15 +100,15 @@ A total number of 30 records were downloaded and then used for analysis.
 * Storage of corresponding data in sql format (the data is not contained in the repository)
 * Aggregate hourly data for all gases and particles for analysis in Tableau in one dataset (ber_all_20220318-20230318 stundenwerte_new columns2.csv) using LibreOffice (the data is not contained in the repository)
 
-### Methods for data analysis in Tableau
+## Methods for data analysis in Tableau
 
-- using Tableau and dataset (ber_all_20220318-20230318 stundenwerte_new columns2.csv) to create interactive sheets. (the Tableau file is contained in the repository)
+Using Tableau and dataset (ber_all_20220318-20230318 stundenwerte_new columns2.csv) to create interactive sheets. (the Tableau file is contained in the repository)
 
-### Power Point
+## Power Point
 
 A summary of the measurement results can be found in the Power Point presentation. For clarity, it also contains slides that were not part of the original presentation due to time constraints.
 
-## Conclusion
+# Conclusion
 
 The following statements have not been scientifically tested and represent the opinion of the author, which is based solely on the measurement data given for the location on Frankfurter Allee. Considering other locations and additional data may lead to different conclusions.
 
