@@ -107,7 +107,7 @@ A summary of the measurement results can be found in the Power Point presentatio
 
 # Conclusion
 
-- The following statements have not been scientifically tested and represent the opinion of the author, which is based solely on the measurement data given for the location on Frankfurter Allee. Considering other locations and additional data may lead to different conclusions.
+The following statements have not been scientifically tested and represent the opinion of the author, which is based solely on the measurement data given for the location on Frankfurter Allee. Considering other locations and additional data may lead to different conclusions.
 
 - It was found that (with the exception of ozone) the measured values in winter are significantly higher than in summer due to the central and decentralized heating of the buildings.
 - The data also showed that readings are lower on weekends than on other days due to less traffic.
