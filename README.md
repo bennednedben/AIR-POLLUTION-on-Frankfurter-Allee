@@ -1,7 +1,4 @@
 # AIR-POLLUTION-on-Frankfurter-Allee
-The following files form the basis for the analysis of air pollution on Frankfurter Allee. Some of the results were summarized in a power point presentation.
-
-# AIR-POLLUTION-on-Frankfurter-Allee
 **benned nedben**  
 **IronHack, Berlin 23 Mar 2023**
 
@@ -48,14 +45,14 @@ For Berlin, current and historical measurement data from the Berlin air quality 
 
 ## Used records
 
-- Measurement data - particulate matter (PM10) (4 datasets)
-- Measurement data - particulate matter (PM2,5) (4 datasets)
-- Measurement data - nitrogen dioxide (NO₂) (4 datasets)
-- Measurement data - nitrogen monoxide (NO) (4 datasets)
-- Measurement data - sum of nitrogen oxides (NOₓ) (4 datasets)
-- Measurement data - ozone (O₃) (4 datasets)
-- Measurement data - carbon monoxide (CO) (4 datasets)
-- Measurement data - sulfur dioxide (SO₂) (2 datasets)
+- particulate matter (PM10) (4 datasets)
+- particulate matter (PM2,5) (4 datasets)
+- nitrogen dioxide (NO₂) (4 datasets)
+- nitrogen monoxide (NO) (4 datasets)
+- sum of nitrogen oxides (NOₓ) (4 datasets)
+- ozone (O₃) (4 datasets)
+- carbon monoxide (CO) (4 datasets)
+- sulfur dioxide (SO₂) (2 datasets)
 
 
 ### aggregated data
@@ -110,12 +107,12 @@ A summary of the measurement results can be found in the Power Point presentatio
 
 # Conclusion
 
-The following statements have not been scientifically tested and represent the opinion of the author, which is based solely on the measurement data given for the location on Frankfurter Allee. Considering other locations and additional data may lead to different conclusions.
+	* The following statements have not been scientifically tested and represent the opinion of the author, which is based solely on the measurement data given for the location on Frankfurter Allee. Considering other locations and additional data may lead to different conclusions.
 
-It was found that (with the exception of ozone) the measured values in winter are significantly higher than in summer due to the central and decentralized heating of the buildings.
-The data also showed that readings are lower on weekends than on other days due to less traffic.
-With one exception, there has been a positive trend in the decrease in measured values over the past few years.
-Political and individual measures to reduce CO2 and air pollution are obviously successful.
-The levels of ozone in the air are stagnating or rising slightly, which is related to global warming.
+	* It was found that (with the exception of ozone) the measured values in winter are significantly higher than in summer due to the central and decentralized heating of the buildings.
+	* The data also showed that readings are lower on weekends than on other days due to less traffic.
+	* With one exception, there has been a positive trend in the decrease in measured values over the past few years.
+	* Political and individual measures to reduce CO2 and air pollution are obviously successful.
+	* The levels of ozone in the air are stagnating or rising slightly, which is related to global warming.
 
 To further reduce air pollution, it is recommended to reduce traffic and modernize the heating systems, which are largely based on fossil fuels and thus have a significant impact on the readings.
